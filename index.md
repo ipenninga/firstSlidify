@@ -1,0 +1,52 @@
+---
+title       : First time Slidify
+subtitle    : 2014
+author      : Ietje Penninga
+job         : Student @ Coursera Course Developing Data Products 
+framework   : io2012        # {io2012, html5slides, shower, dzslides, ...}
+highlighter : highlight.js  # {highlight.js, prettify, highlight}
+hitheme     : tomorrow      # 
+widgets     : []            # {mathjax, quiz, bootstrap}
+mode        : selfcontained # {standalone, draft}
+knit        : slidify::knit2slides
+---.class #id 
+
+## Coursera Assignment
+
+Assignment Coursera:
+- create a shiny app, with some interactivity
+- create a presentation using slidfy or Rpresenter with R-code in it
+
+Which is awesome, because this is all new stuff
+
+---
+
+## Shiny App
+For the Shiny App I wanted to create an interactive graph
+- data was found in MASS library
+- data was of type time series
+- time series took some time to understand
+
+---
+
+## Shiny App publishing
+Publishing the app on Shiny Apps io was quite easy.
+Getting the stuff up at GitHub was challenging:
+- clone does not work for some reason
+- git push caused an error
+- git pull was necessary, but it took some time to figure out the exact command
+- and I got lost in the editor, when using commit without flags
+
+---
+
+## R code slidify
+To show that R-code is run in this presentation, you can easily check if the date/time are correct:
+
+
+```r
+date()
+```
+
+```
+## [1] "Sun Sep 21 20:06:52 2014"
+```
